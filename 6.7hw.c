@@ -4,25 +4,17 @@
 
 #include <time.h>
 
-
-
 int main()
-
 {
 
  int X, i, j;
 
  char C, C2;
 
-
-
  srand(time(NULL));
 
-
-
  for (i = 1; i > 0; i++)
-
- {
+  {
 
   X = 1 + rand() % 26;
 
@@ -31,7 +23,6 @@ int main()
   printf("%c\n", C);
 
   if (C == 'a' || C == 'i' || C == 'h' || C == 'w' || C == 'u' || C == 'o')
-
   {
 
    break;
@@ -39,8 +30,6 @@ int main()
   }
 
  }
-
-
 
  for (j = 1; j > 0; j++)
 
@@ -52,15 +41,11 @@ int main()
 
   printf("%c%c\n", C, C2);
 
-
-
   if (C == 'a' && C2 == 't')
 
   {
 
-
-
-   break;
+  break;
 
   }
 
@@ -68,9 +53,7 @@ int main()
 
   {
 
-
-
-   break;
+  break;
 
   }
 
@@ -78,9 +61,7 @@ int main()
 
   {
 
-
-
-   break;
+  break;
 
   }
 
@@ -88,9 +69,7 @@ int main()
 
   {
 
-
-
-   break;
+  break;
 
   }
 
@@ -106,20 +85,16 @@ int main()
 
   {
 
-
-
-   break;
+  break;
 
   }
 
  }
 
 
-
  printf("Word: %c%c \n", C, C2);
 
- printf("The number of letters typed: %d\n\n", (i + j));
-
+ printf("The number of letters typed is: %d\n\n", (i + j));
 
 
  return 0;
